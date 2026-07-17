@@ -1,57 +1,54 @@
-👋 Привет, я Дмитрий — Backend Engineer & AI Developer
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=dimaCaptain)](https://git.io/typing-svg)
-<div id="badges" align="center">
-  <a href="http://www.linkedin.com/in/dimaCaptain">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://disk.yandex.by/i/9kgdjL2FKScfIQ">
-    <img src="https://img.shields.io/badge/CV-yellow?style=for-the-badge&logo=CV&logoColor=red" alt="CV Badge"/>
-  </a>
-  <a href="https://t.me/captainDima">
-    <img src="https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge"/>
-  </a>
-</div>
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXpxeW5jbHh2anFyemw5OHI1NWp3NjFsdnF1b3A4MW90bWEwam5wZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="350"/>
+  <img src="./banner.svg" alt="Дмитрий Пасовец — Senior Backend & AI Engineer" width="100%" />
 </div>
 
-🧠 Обо мне
-Backend-разработчик (NestJS/Node.js, 5 лет) и AI Engineer (3 года). 
-Прошёл путь от сисадмина до инженера, проектирующего высоконагруженные бэкенды и production-ready мультиагентные AI-системы. С 2023 года углубился в AI-разработку: от ускорения кода через LLM до проектирования сложных агентных архитектур. Специализация - внедрение передовых AI-методологий: агентные рабочие процессы, RAG-пайплайны, интеграция AI в существующие бэкенд-системы. Коммерческий опыт - AI-продукты, финтех, аутсорс и стартапы. Сильные стороны - декомпозиция сложных задач, беклидство, менторство, лидерство команд. Интегрирую AI в личную эффективность: планирование, обучение, аналитика.
+<p align="center">
+  <a href="https://disk.yandex.by/i/9kgdjL2FKScfIQ"><b>Резюме&nbsp;↗</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/dimacaptain"><b>LinkedIn&nbsp;↗</b></a> &nbsp;·&nbsp;
+  <a href="https://career.habr.com/dimacaptain"><b>Хабр&nbsp;Карьера&nbsp;↗</b></a> &nbsp;·&nbsp;
+  <a href="https://t.me/captainDima"><b>Telegram&nbsp;↗</b></a>
+</p>
 
-🛠️ Технологический стек
+---
 
-![Node.js](https://img.shields.io/badge/Node.js-%23404d59.svg?style=for-the-badge&logo=node.js&logoColor=%2361DAFB)![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)![NestJS](https://img.shields.io/badge/NestJS-%23404d59.svg?style=for-the-badge&logo=nestjs&logoColor=%2361DAFB)![JavaScript](https://img.shields.io/badge/JavaScript-%23404d59.svg?style=for-the-badge&logo=javascript&logoColor=%2361DAFB)![TypeScript](https://img.shields.io/badge/TypeScript-%23404d59.svg?style=for-the-badge&logo=typescript&logoColor=%2361DAFB)
-<br>
-![GraphQL](https://img.shields.io/badge/GraphQL-%23404d59.svg?style=for-the-badge&logo=graphql&logoColor=%2361DAFB)![MongoDB](https://img.shields.io/badge/MongoDB-%23404d59.svg?style=for-the-badge&logo=mongodb&logoColor=%2361DAFB)![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23404d59.svg?style=for-the-badge&logo=postgresql&logoColor=%2361DAFB)![Redis](https://img.shields.io/badge/Redis-%23404d59.svg?style=for-the-badge&logo=redis&logoColor=%2361DAFB)![Mongoose](https://img.shields.io/badge/Mongoose-%23404d59.svg?style=for-the-badge&logo=mongoose&logoColor=%2361DAFB)
-<br>
-![Prisma](https://img.shields.io/badge/Prisma-%23404d59.svg?style=for-the-badge&logo=prisma&logoColor=%2361DAFB)![RabbitMQ](https://img.shields.io/badge/RabbitMQ-%23404d59.svg?style=for-the-badge&logo=rabbitmq&logoColor=%2361DAFB)![Docker](https://img.shields.io/badge/Docker-%23404d59.svg?style=for-the-badge&logo=docker&logoColor=%2361DAFB)![Docker-compose](https://img.shields.io/badge/Docker_Compose-%23404d59.svg?style=for-the-badge&logo=docker&logoColor=%2361DAFB)![GIT](https://img.shields.io/badge/GIT-%23404d59.svg?style=for-the-badge&logo=git&logoColor=%2361DAFB)
+**Senior Backend-инженер (Node.js / NestJS), 5+ лет.** Веду бэкенд от архитектуры до прода: highload, платежи и подписки, распределённые транзакции и отказоустойчивость. Последние 3 года — плотно на стыке backend и AI: мультиагентные пайплайны, RAG и LLM-security как ежедневный рабочий инструмент, а не хобби.
 
-🚀 Ключевые проекты
+**Из практики:**
 
-🤖 Agentic Workflow — Мультиагентный пайплайн разработки
-7 AI-ролей в tmux-конвейере: от планирования до продакшена. Архитектор проектирует, ревьюер проверяет, разработчик пишет код, тестировщик валидирует — каждая роль на своей LLM.
-- Стек: TypeScript, tmux, Claude Code, DeepSeek, GPT, Docker
-- Особенности: Multi-model routing, перекрёстная валидация планов, авто-код-ревью, event-driven пайплайн
+- Спроектировал **order book** криптобиржи с атомарным матчингом (Redlock + распределённые транзакции), price-time priority и восстановлением стакана при сбоях; нагрузочно протестирован на **10k пользователей**.
+- **−80% новых багов** на highload-проекте после перепроектирования флоу (Kafka + Debezium); нашёл и починил баг «вечных подписок» (**2000+**) с восстановлением потерянных транзакций — напрямую спас деньги заказчику.
+- Спроектировал **6-слойную защиту от prompt injection** (OWASP LLM Top 10): санитизация вход/выход, LLM risk-scoring, outbound-gate, PII/secret redaction.
 
-👤 Квант — Персональный AI-агент с RAG
-AI-компаньон на NestJS с трёхуровневой системой памяти: семантический поиск (pgvector), долгосрочные факты, контекст сессий. Автономные cron-задачи, TTS, OCR, парсинг погоды/курсов.
-- Стек: NestJS, TypeScript, Hermes, pgvector, PostgreSQL, Redis, Ollama
-- Особенности: Векторный поиск, 20+ cron-агентов, RAG без галлюцинаций, realtime дашборд
+---
 
-📈 Crypto Trading Platform — Backend (Radiance)
-Бэкенд крипто-биржи с order book, matching engine и WebSocket API. Высоконагруженная система с конкурентным доступом к ордерам.
-- Стек: NestJS, PostgreSQL, Redis, WebSockets, JWT, CryptoPRO
-- Особенности: Order book с Redis-locking, финансовая система проводок, RBAC, high-frequency обработка
+### Проекты
 
-🎓 Zipper — AI-тьютор с RAG
-Образовательная платформа с RAG-пайплайном на локальных эмбеддингах. 6 режимов обучения: от свободного диалога до экзамена.
-- Стек: Next.js, Ollama, bge-m3, pgvector, TypeScript
-- Особенности: Локальные эмбеддинги, чанкинг документов, 6 режимов обучения, семантический поиск
+**Мультиагентная система разработки**
+Команды агентов Claude Code (Arch / Dev / QA, пары Main/Rev на разных LLM) в tmux-конвейере: авто-ревью, переключение модельных профилей, дашборд состояния агентов и детерминированный **autoapprove-хук** (Claude Code PreToolUse) с deny-list политикой. Idempotent-инсталляция (symlinks + cron), репозиторий как single-source-of-truth, bats-тесты. Мой основной рабочий инструмент разработки.
+`TypeScript` · `tmux` · `Claude Code` · `PreToolUse hooks` · `multi-model routing`
 
-🎙 Whisper Tools — Инструменты транскрипции речи
-3 десктопных GUI-приложения для записи и транскрипции через self-hosted Whisper API.
-- Стек: Python, Tkinter, Whisper, FastAPI
-- Особенности: Локальная транскрипция, пакетная обработка, real-time запись
+**Квант — распределённый персональный AI-ассистент**
+Telegram ↔ Claude Code через CCR с полным доступом к инструментам (веб-поиск, файлы, код, зрение). **Два инстанса** — локальный и облачный (VPS) — с общей **git-памятью** (vault local / cloud / shared, автосинк) и системой из **8 доменных ролей**, мультипользовательский доступ.
+`Node.js` · `CCR` · `Claude Code` · `git-based memory` · `MCP`
 
+**Zipper — AI-тьютор для ускоренного обучения**
+Next.js 15 + RAG на локальных эмбеддингах (Ollama, bge-m3) и векторном поиске (SQLite + sqlite-vec), Vercel AI SDK. Несколько режимов тьюторинга (сократовский диалог, опрос, mock-экзамен), ingest-конвейер учебных материалов (PDF / EPUB / FB2 + транскрипции лекций), трекинг прогресса освоения.
+`Next.js 15` · `TypeScript` · `RAG` · `sqlite-vec` · `Ollama / bge-m3` · `Vercel AI SDK`
+
+---
+
+### Стек
+
+**Языки** — TypeScript · JavaScript (Node.js) · SQL · базово Python
+**Бэкенд** — NestJS · Express · Fastify · REST · GraphQL · gRPC · WebSocket · микросервисы
+**Архитектура** — Event-Driven · DDD · CQRS · распределённые транзакции · идемпотентность · проектирование под нагрузку
+**Данные / очереди** — PostgreSQL · MongoDB · Redis · Kafka · RabbitMQ · BullMQ
+**Cloud / DevOps** — Docker · Kubernetes · GitLab CI/CD · AWS · GCP · Nginx
+**AI / LLM** — мультиагентные системы · RAG · pgvector / Qdrant · embeddings · MCP · OpenRouter · OWASP LLM Top 10
+
+---
+
+<p align="center">
+  <sub>Открыт к senior / lead backend-роли в продукте, где нужен широкий бэкендер, умеющий в AI.<br/>
+  Быстрее всего отвечаю в <a href="https://t.me/captainDima">Telegram</a> &nbsp;·&nbsp; dimitricaptain@yandex.by</sub>
+</p>
