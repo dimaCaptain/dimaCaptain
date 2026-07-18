@@ -1,51 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Дмитрий Пасовец — AI / Backend Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Дмитрий Пасовец. Senior Backend-разработчик (Node.js / NestJS) | AI Engineer">
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#12161C"/>
       <stop offset="1" stop-color="#0D1015"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#E8863C"/>
       <stop offset="1" stop-color="#C2611F"/>
     </linearGradient>
   </defs>
 
-  <!-- panel -->
   <rect x="2" y="2" width="1196" height="316" rx="22" fill="url(#panel)" stroke="#242B34" stroke-width="1.5"/>
-  <!-- left accent rule -->
-  <rect x="2" y="118" width="5" height="84" rx="2.5" fill="url(#accent)"/>
+  <rect x="2" y="104" width="5" height="168" rx="2.5" fill="url(#accent)"/>
 
-  <!-- decorative multi-agent graph, right -->
-  <g stroke="#E8863C" stroke-width="1.4" fill="none" opacity="0.28">
-    <line x1="1000" y1="96" x2="1092" y2="150"/>
-    <line x1="1092" y1="150" x2="1006" y2="214"/>
-    <line x1="1000" y1="96" x2="1006" y2="214"/>
-    <line x1="1092" y1="150" x2="1150" y2="96"/>
-    <line x1="1092" y1="150" x2="1150" y2="214"/>
+  <g stroke="#E8863C" stroke-width="1.4" fill="none" opacity="0.26">
+    <line x1="1000" y1="104" x2="1092" y2="158"/>
+    <line x1="1092" y1="158" x2="1006" y2="222"/>
+    <line x1="1000" y1="104" x2="1006" y2="222"/>
+    <line x1="1092" y1="158" x2="1150" y2="104"/>
+    <line x1="1092" y1="158" x2="1150" y2="222"/>
   </g>
-  <g fill="#E8863C" opacity="0.55">
-    <circle cx="1000" cy="96" r="6"/>
-    <circle cx="1092" cy="150" r="7"/>
-    <circle cx="1006" cy="214" r="6"/>
-    <circle cx="1150" cy="96" r="4.5"/>
-    <circle cx="1150" cy="214" r="4.5"/>
+  <g fill="#E8863C" opacity="0.5">
+    <circle cx="1000" cy="104" r="6"/>
+    <circle cx="1092" cy="158" r="7"/>
+    <circle cx="1006" cy="222" r="6"/>
+    <circle cx="1150" cy="104" r="4.5"/>
+    <circle cx="1150" cy="222" r="4.5"/>
   </g>
 
-  <!-- open-to-work, top right -->
-  <g font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" letter-spacing="1.5">
-    <circle cx="1052" cy="52" r="4.5" fill="#52B364"/>
-    <text x="1066" y="57" fill="#8A929E">OPEN&#160;TO&#160;WORK</text>
-  </g>
+  <text x="70" y="132" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Noto Sans',sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5" fill="#E9ECF1">Дмитрий Пасовец</text>
 
-  <!-- eyebrow -->
-  <text x="72" y="98" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="18" letter-spacing="4.5" fill="#E8863C">SENIOR&#160;BACKEND&#160;·&#160;AI&#160;ENGINEER</text>
+  <text x="72" y="178" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Noto Sans',sans-serif" font-size="22" font-weight="500" fill="#E8863C">Senior Backend-разработчик (Node.js / NestJS) | AI Engineer</text>
 
-  <!-- name -->
-  <text x="70" y="178" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Noto Sans',sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#E9ECF1">Дмитрий Пасовец</text>
+  <text x="72" y="214" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Noto Sans',sans-serif" font-size="19" fill="#9AA2AE">Проектирование под нагрузку · платежи · production-grade AI</text>
 
-  <!-- sub -->
-  <text x="72" y="224" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Noto Sans',sans-serif" font-size="22" fill="#9AA2AE">Высоконагруженный бэкенд · платежи · production-grade AI</text>
+  <line x1="72" y1="240" x2="700" y2="240" stroke="#242B34" stroke-width="1.5"/>
 
-  <!-- stack strip -->
-  <text x="72" y="278" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="15" letter-spacing="0.4" fill="#69727E">TypeScript · NestJS · PostgreSQL · Kafka · Redis · Kubernetes · RAG · LLM-security</text>
+  <text x="72" y="272" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="15" letter-spacing="0.3" fill="#77808C">Node.js • NestJS • TypeScript • PostgreSQL • Artificial Intelligence (AI)</text>
 </svg>
