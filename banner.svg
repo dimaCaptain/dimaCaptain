@@ -13,19 +13,20 @@
   <rect x="2" y="2" width="1196" height="316" rx="22" fill="url(#panel)" stroke="#242B34" stroke-width="1.5"/>
   <rect x="2" y="104" width="5" height="168" rx="2.5" fill="url(#accent)"/>
 
-  <g stroke="#E8863C" stroke-width="1.4" fill="none" opacity="0.26">
+  <g stroke="#E8863C" stroke-width="1.4" fill="none" opacity="0.24">
+    <animate attributeName="opacity" values="0.16;0.32;0.16" dur="4.5s" repeatCount="indefinite"/>
     <line x1="1000" y1="104" x2="1092" y2="158"/>
     <line x1="1092" y1="158" x2="1006" y2="222"/>
     <line x1="1000" y1="104" x2="1006" y2="222"/>
     <line x1="1092" y1="158" x2="1150" y2="104"/>
     <line x1="1092" y1="158" x2="1150" y2="222"/>
   </g>
-  <g fill="#E8863C" opacity="0.5">
-    <circle cx="1000" cy="104" r="6"/>
-    <circle cx="1092" cy="158" r="7"/>
-    <circle cx="1006" cy="222" r="6"/>
-    <circle cx="1150" cy="104" r="4.5"/>
-    <circle cx="1150" cy="222" r="4.5"/>
+  <g fill="#E8863C">
+    <circle cx="1000" cy="104" r="6" opacity="0.5"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.8s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="1092" cy="158" r="7" opacity="0.5"><animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="r" values="7;8;7" dur="2.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1006" cy="222" r="6" opacity="0.5"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.8s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="104" r="4.5" opacity="0.5"><animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.8s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="222" r="4.5" opacity="0.5"><animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.8s" begin="2.4s" repeatCount="indefinite"/></circle>
   </g>
 
   <text x="70" y="132" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Noto Sans',sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5" fill="#E9ECF1">Дмитрий Пасовец</text>
