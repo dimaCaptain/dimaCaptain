@@ -13,59 +13,59 @@
   <rect x="2" y="2" width="1196" height="316" rx="22" fill="url(#panel)" stroke="#242B34" stroke-width="1.5"/>
   <rect x="2" y="104" width="5" height="168" rx="2.5" fill="url(#accent)"/>
 
-  <!-- chaotic multi-agent graph, right: nodes drift, lines follow -->
+  <!-- chaotic multi-agent graph, right: nodes drift widely, lines follow -->
   <g stroke="#E8863C" stroke-width="1.4" fill="none" opacity="0.24">
     <line x1="1000" y1="104" x2="1092" y2="158">
-      <animate attributeName="x1" values="1000;1016;986;1008;1000" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="y1" values="104;93;114;99;104" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1092;1078;1103;1088;1092" dur="6.4s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="158;171;147;166;158" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="1000;1034;972;1012;1000" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="104;80;126;96;104" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1092;1060;1120;1078;1092" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="158;188;132;172;158" dur="6.4s" repeatCount="indefinite"/>
     </line>
     <line x1="1092" y1="158" x2="1006" y2="222">
-      <animate attributeName="x1" values="1092;1078;1103;1088;1092" dur="6.4s" repeatCount="indefinite"/>
-      <animate attributeName="y1" values="158;171;147;166;158" dur="6.4s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1006;1021;993;1013;1006" dur="5.7s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="222;211;231;217;222" dur="5.7s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="1092;1060;1120;1078;1092" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="158;188;132;172;158" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1006;1040;978;1020;1006" dur="5.7s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="222;198;244;212;222" dur="5.7s" repeatCount="indefinite"/>
     </line>
     <line x1="1000" y1="104" x2="1006" y2="222">
-      <animate attributeName="x1" values="1000;1016;986;1008;1000" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="y1" values="104;93;114;99;104" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1006;1021;993;1013;1006" dur="5.7s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="222;211;231;217;222" dur="5.7s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="1000;1034;972;1012;1000" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="104;80;126;96;104" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1006;1040;978;1020;1006" dur="5.7s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="222;198;244;212;222" dur="5.7s" repeatCount="indefinite"/>
     </line>
     <line x1="1092" y1="158" x2="1150" y2="104">
-      <animate attributeName="x1" values="1092;1078;1103;1088;1092" dur="6.4s" repeatCount="indefinite"/>
-      <animate attributeName="y1" values="158;171;147;166;158" dur="6.4s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1150;1137;1161;1145;1150" dur="6.9s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="104;117;95;111;104" dur="6.9s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="1092;1060;1120;1078;1092" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="158;188;132;172;158" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1150;1120;1178;1136;1150" dur="6.9s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="104;134;78;116;104" dur="6.9s" repeatCount="indefinite"/>
     </line>
     <line x1="1092" y1="158" x2="1150" y2="222">
-      <animate attributeName="x1" values="1092;1078;1103;1088;1092" dur="6.4s" repeatCount="indefinite"/>
-      <animate attributeName="y1" values="158;171;147;166;158" dur="6.4s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1150;1163;1135;1157;1150" dur="6.1s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="222;210;235;213;222" dur="6.1s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="1092;1060;1120;1078;1092" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="158;188;132;172;158" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1150;1178;1122;1162;1150" dur="6.1s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="222;196;248;214;222" dur="6.1s" repeatCount="indefinite"/>
     </line>
   </g>
   <g fill="#E8863C">
     <circle cx="1000" cy="104" r="6" opacity="0.55">
-      <animate attributeName="cx" values="1000;1016;986;1008;1000" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="104;93;114;99;104" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1000;1034;972;1012;1000" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="104;80;126;96;104" dur="5s" repeatCount="indefinite"/>
     </circle>
     <circle cx="1092" cy="158" r="7" opacity="0.65">
-      <animate attributeName="cx" values="1092;1078;1103;1088;1092" dur="6.4s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="158;171;147;166;158" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1092;1060;1120;1078;1092" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="158;188;132;172;158" dur="6.4s" repeatCount="indefinite"/>
     </circle>
     <circle cx="1006" cy="222" r="6" opacity="0.55">
-      <animate attributeName="cx" values="1006;1021;993;1013;1006" dur="5.7s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="222;211;231;217;222" dur="5.7s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1006;1040;978;1020;1006" dur="5.7s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="222;198;244;212;222" dur="5.7s" repeatCount="indefinite"/>
     </circle>
     <circle cx="1150" cy="104" r="4.5" opacity="0.5">
-      <animate attributeName="cx" values="1150;1137;1161;1145;1150" dur="6.9s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="104;117;95;111;104" dur="6.9s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1150;1120;1178;1136;1150" dur="6.9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="104;134;78;116;104" dur="6.9s" repeatCount="indefinite"/>
     </circle>
     <circle cx="1150" cy="222" r="4.5" opacity="0.5">
-      <animate attributeName="cx" values="1150;1163;1135;1157;1150" dur="6.1s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="222;210;235;213;222" dur="6.1s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1150;1178;1122;1162;1150" dur="6.1s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="222;196;248;214;222" dur="6.1s" repeatCount="indefinite"/>
     </circle>
   </g>
 

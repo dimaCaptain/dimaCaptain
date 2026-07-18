@@ -44,15 +44,18 @@
 
 **Мультиагентная система разработки**
 Команды агентов Claude Code (Arch / Dev / QA, пары Main/Rev на разных LLM) в tmux-конвейере: авто-ревью, переключение модельных профилей, дашборд состояния агентов, детерминированный autoapprove-хук (Claude Code PreToolUse) с deny-list политикой. Idempotent-инсталляция (symlinks, cron), репозиторий как single source of truth, bats-тесты. Основной рабочий инструмент разработки.
-`TypeScript` · `tmux` · `Claude Code` · `PreToolUse hooks` · `multi-model routing`
+
+**Стек:** `TypeScript` · `tmux` · `Claude Code` · `PreToolUse hooks` · `multi-model routing`
 
 **Квант**
 Распределённый персональный AI-ассистент: Telegram ↔ Claude Code через CCR с полным доступом к инструментам (веб-поиск, файлы, код, зрение). Два инстанса, локальный и облачный (VPS), с общей git-памятью (vault local / cloud / shared, автосинк) и системой из 8 доменных ролей, мультипользовательский доступ.
-`Node.js` · `CCR` · `Claude Code` · `git-based memory` · `MCP`
+
+**Стек:** `Node.js` · `CCR` · `Claude Code` · `git-based memory` · `MCP`
 
 **Zipper**
 AI-тьютор для ускоренного обучения: Next.js 15 и RAG на локальных эмбеддингах (Ollama, bge-m3) с векторным поиском (SQLite, sqlite-vec), Vercel AI SDK. Несколько режимов тьюторинга (сократовский диалог, опрос, mock-экзамен), ingest-конвейер учебных материалов (PDF / EPUB / FB2, транскрипции лекций), трекинг прогресса освоения.
-`Next.js 15` · `TypeScript` · `RAG` · `sqlite-vec` · `Ollama / bge-m3` · `Vercel AI SDK`
+
+**Стек:** `Next.js 15` · `TypeScript` · `RAG` · `sqlite-vec` · `Ollama / bge-m3` · `Vercel AI SDK`
 
 ---
 
