@@ -42,7 +42,7 @@
 
 ### Личные AI-проекты
 
-**Мультиагентная система разработки**
+**[Мультиагентная система разработки](https://github.com/dimaCaptain/tmux-core-flow)&nbsp;↗**
 Команды агентов Claude Code (Arch / Dev / QA, пары Main/Rev на разных LLM) в tmux-конвейере: авто-ревью, переключение модельных профилей, дашборд состояния агентов, детерминированный autoapprove-хук (Claude Code PreToolUse) с deny-list политикой. Idempotent-инсталляция (symlinks, cron), репозиторий как single source of truth, bats-тесты. Основной рабочий инструмент разработки.
 
 **Стек:** `TypeScript` · `tmux` · `Claude Code` · `PreToolUse hooks` · `multi-model routing`
