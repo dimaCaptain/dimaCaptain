@@ -53,7 +53,7 @@
 **Стек:** `Node.js` · `CCR` · `Claude Code` · `git-based memory` · `MCP`
 
 **Zipper**
-AI-тьютор для ускоренного обучения: Next.js 15 и RAG на локальных эмбеддингах (Ollama, bge-m3) с векторным поиском (SQLite, sqlite-vec), Vercel AI SDK. Несколько режимов тьюторинга (сократовский диалог, опрос, mock-экзамен), ingest-конвейер учебных материалов (PDF / EPUB / FB2, транскрипции лекций), трекинг прогресса освоения.
+AI-тьютор для ускоренного обучения: Next.js 15 и RAG на локальных эмбеддингах (Ollama, bge-m3) с векторным поиском (SQLite, sqlite-vec), Vercel AI SDK. Несколько режимов тьюторинга (сократовский диалог, опрос, mock-экзамен), ingest-конвейер учебных материалов (PDF / EPUB / FB2, транскрипции лекций), трекинг прогресса освоения. Retrieval-движок вынесен в отдельный open-source-сервис → **[rag-engine](https://github.com/dimaCaptain/rag-engine)&nbsp;↗** — domain-agnostic local-first RAG (ingest → embed → sqlite-vec → grounded chat) за пятью HTTP-эндпоинтами, под любой wrapper.
 
 **Стек:** `Next.js 15` · `TypeScript` · `RAG` · `sqlite-vec` · `Ollama / bge-m3` · `Vercel AI SDK`
 
